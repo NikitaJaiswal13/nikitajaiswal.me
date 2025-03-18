@@ -1,0 +1,65 @@
+body {
+    padding-top: 70px; /* Adjust according to navbar height */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    margin: 0;
+    background: linear-gradient(135deg, #f8f9fa 30%, #e9ecef 100%);
+}
+
+.hero-section {
+    min-height: 100vh; /* Keeps full screen height */
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f9fa; /* Light background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-img img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    height: 100%;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+}
+
+.wave {
+    font-size: 2rem;
+}
+
+.Main{
+    color: #6a0dad;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        min-height: 100vh; /* Ensure it covers full screen */
+        padding: 0;
+    }
+
+    .profile-img img {
+        max-width: 60%; /* Further reduce size */
+        height: auto;
+    }
+}
+
+

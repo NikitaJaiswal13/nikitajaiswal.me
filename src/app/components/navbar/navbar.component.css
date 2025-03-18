@@ -1,3 +1,16 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+}
+
+.hero-section .btn {
+    margin-left: 0; 
+    margin-top: 20px; 
+}
+
 .navbar-brand{
     font-size: 1rem;
     color: #5f5e5e;
@@ -27,8 +40,6 @@
     background-color: #6a0dad;
 }
 
-
-
 .navbar.fixed-top {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -55,19 +66,25 @@
     color: #6a0dad !important; 
 }
 
-.custom-toggler .navbar-toggler-icon {
-      background-color: #aebbc6;
-      border-radius: 25%;
+.custom-toggler {
+    margin-right: 15px; /* Adjust as needed */
+    padding: 5px;
 }
 
+.hero-section .btn {
+    margin-left: 15rem;
+}
+
+
+
 /* Mobile */
-@media (max-width : 767px){
-    .navbar-nav .nav-link{
-        font-size: 0.8rem;
-        margin-left: 10px;
-    } 
-    .navbar-nav .nav-link:hover::after {
-        width: 100%; 
+@media (max-width: 767px) {
+    .navbar {
+        padding: 5px;
     }
 
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+        margin-left: 15px; 
+    }
 }
