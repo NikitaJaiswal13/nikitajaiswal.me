@@ -1,0 +1,33 @@
+.projects-section {
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/assets/Hero/project_bg.avif') no-repeat center center/cover;
+    padding: 50px 20px;
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    max-width: 350px;
+}
+
+.about-card:hover {
+    transform: scale(1.05);
+}
+
+.about-card h5 {
+    font-size: 1.2rem;
+    color: #6a0dad;
+    font-weight: bold;
+}
+
+.about-card p {
+    color: #333;
+    font-size: 1rem;
+}

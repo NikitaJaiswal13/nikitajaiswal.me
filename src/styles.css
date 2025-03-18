@@ -26,10 +26,12 @@ body {
 
 :root {
   --navbar-height: 50px;
+  /* --bg-color :#1E3A56 */
 }
 
 body {
   padding-top: var(--navbar-height);
+  /* background-color:  var(--bg-color); */
 }
 
 /* Width of the scrollbar */
@@ -45,12 +47,12 @@ body {
 
 /* Handle (movable part) */
 ::-webkit-scrollbar-thumb {
-  background: #6a0dad; /* Purple */
+  background: #6a0dad;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5a009d; /* Darker Purple */
+  background: #5a009d; 
 }
 

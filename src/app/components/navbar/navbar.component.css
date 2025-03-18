@@ -4,6 +4,7 @@
     left: 0;
     width: 100%;
     z-index: 1050;
+    /* background-color: #0f172a !important; */
 }
 
 .hero-section .btn {
@@ -14,12 +15,14 @@
 .navbar-brand{
     font-size: 1rem;
     color: #5f5e5e;
+    /* color: #93979f; */
 }
 
 .navbar-nav .nav-link{
     font-size: 0.8rem;
     margin-left: 55px;
     color: #5f5e5e;
+    /* color: #93979f; */
     transition: 0.3s;
     position: relative;
 }
@@ -46,7 +49,6 @@
 
 .bg-body-tertiary {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
-    background-color: #ffffff !important; 
 }
 
 
@@ -73,6 +75,7 @@
 
 .hero-section .btn {
     margin-left: 15rem;
+    color: #93979f;
 }
 
 

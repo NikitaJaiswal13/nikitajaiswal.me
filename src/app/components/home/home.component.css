@@ -6,18 +6,20 @@ body {
 }
 
 .hero-section {
-    min-height: 100vh; /* Keeps full screen height */
+    min-height: 100vh; /* Full screen height */
     width: 100%;
-    overflow: hidden;
-    background-color: #f8f9fa; /* Light background */
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* Background Image */
+    background: url('/assets/Hero/about_bg.avif') no-repeat center center;
+    background-size: cover;
 }
+
 
 .profile-img img {
     display: block;

@@ -1,0 +1,54 @@
+.about-page {
+    background: url('/assets/Hero/about_bg.avif') no-repeat fixed;
+    background-size: cover;
+    width: 100vw; 
+    height: 100vh; 
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-card {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-card:hover {
+    transform: scale(1.05);
+}
+
+.about-card i {
+    font-size: 1.8rem;
+    color: #6a0dad;
+}
+
+.about-card h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+.about-card a {
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #444;
+}
+
+.resume-btn {
+    margin-top: 20px;
+    font-size: 1rem;
+}
