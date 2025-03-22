@@ -1,1 +1,26 @@
-<p>footer works!</p>
+<footer class="footer text-center py-4">
+    <h2 class="mb-3">Nikita Jaiswal</h2>
+    
+    <!-- Navigation Links -->
+    <nav>
+      <a routerLink="/about" class="mx-3 text-light text-decoration-none">About</a>
+      <a routerLink="/projects" class="mx-3 text-light text-decoration-none">Projects</a>
+      <a routerLink="/skills" class="mx-3 text-light text-decoration-none">Skills</a>
+    </nav>
+  
+    <!-- Social Media Icons -->
+    <div class="mt-3">
+      <a href="https://github.com/NikitaJaiswal13" target="_blank" class="text-light mx-2">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/nikita-jaiswal-56b10728b/" target="_blank" class="text-light mx-2">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+    </div>
+  
+    <!-- Scroll to Top Button -->
+    <button class="btn btn-dark rounded-circle mt-3" (click)="scrollToTop()">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </footer>
+  

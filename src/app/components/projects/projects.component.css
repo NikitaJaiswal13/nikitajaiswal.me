@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/assets/Hero/project_bg.avif') no-repeat center center/cover;
+    background: url('/assets/Hero/home.jpg') no-repeat center center/cover;
     padding: 50px 20px;
 }
 

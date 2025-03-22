@@ -16,8 +16,8 @@ body {
     box-sizing: border-box;
 
     /* Background Image */
-    background: url('/assets/Hero/about_bg.avif') no-repeat center center;
-    background-size: cover;
+    /* background: url('/assets/Hero/home.jpg') no-repeat center center; */
+    /* background-size: cover;  */
 }
 
 
