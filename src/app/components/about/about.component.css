@@ -1,19 +1,36 @@
+/* Ensure the about page background adapts */
 .about-page {
-    background: url('/assets/Hero/about_bg.avif') no-repeat fixed;
+    background: url('/assets/Hero/about_bg.avif') no-repeat center center ;
     background-size: cover;
-    width: 100vw; 
-    height: 100vh; 
+    width: 100%;
+    min-height: 100vh;
     padding: 50px 20px;
     border-radius: 10px;
 }
 
+/* Responsive Profile Image */
 .profile-img {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Responsive Text */
+.about-text {
+    font-size: 1rem;
+    color: #444;
+    text-align: justify;
+}
+
+/* Resume Button - Responsive */
+.resume-btn {
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* Cards Section - Adjust for Smaller Screens */
 .about-card {
     background: white;
     text-align: center;
@@ -27,28 +44,58 @@
     transform: scale(1.05);
 }
 
+/* Icons inside cards */
 .about-card i {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #6a0dad;
 }
 
-.about-card h6 {
-    font-size: 1rem;
-    margin-top: 10px;
-    color: #333;
+/* Adjust Grid Layout for Smaller Screens */
+@media (max-width: 768px) {
+    .about-page {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .profile-img {
+        max-width: 200px; /* Make profile image smaller */
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        font-size: 0.95rem; /* Slightly smaller text */
+    }
+
+    .resume-btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    .about-card {
+        margin-bottom: 15px; /* Add spacing between cards */
+    }
 }
 
-.about-card a {
-    color: #6a0dad;
-    text-decoration: none;
-}
+/* Further Adjustments for Mobile Screens */
+@media (max-width: 576px) {
+    .about-page {
+        padding: 20px 10px;
+    }
 
-.about-text {
-    font-size: 1rem;
-    color: #444;
-}
+    .profile-img {
+        max-width: 180px; /* Further reduce image size */
+    }
 
-.resume-btn {
-    margin-top: 20px;
-    font-size: 1rem;
+    .about-text {
+        font-size: 0.9rem;
+    }
+
+    .about-card {
+        padding: 12px;
+    }
+
+    .resume-btn {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
 }
