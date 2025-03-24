@@ -1,14 +1,12 @@
-/* Ensure the about page background adapts */
 .about-page {
     background: url('/assets/Hero/about_bg.avif') no-repeat center center ;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
-    padding: 50px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
-/* Responsive Profile Image */
 .profile-img {
     width: 100%;
     max-width: 250px;

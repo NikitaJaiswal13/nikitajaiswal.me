@@ -1,0 +1,46 @@
+.contact-container {
+    /* margin-top: 10px;  */
+    /* padding: 87px; */
+    padding: 70px;
+}
+
+.contact-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container p {
+    margin-top: 0;
+    margin-bottom: 2rem; 
+
+}
+
+.contact-box h3 {
+    font-weight: bold;
+}
+
+.contact-box p {
+    margin: 5px 0;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.send-btn {
+    background: #6a0dad;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+
+.send-btn:hover {
+    background: #6a0dad;
+}
