@@ -54,14 +54,26 @@ h1 {
 
 @media (max-width: 767px) {
     .hero-section {
-        min-height: 100vh; /* Ensure it covers full screen */
-        padding: 0;
+        min-height: auto;
+        padding: 20px 10px; 
     }
 
     .profile-img img {
-        max-width: 60%; /* Further reduce size */
+        max-width: 50%; 
         height: auto;
+        margin-top: 10px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .hero-content {
+        padding: 10px; 
     }
 }
+
+
+
 
 

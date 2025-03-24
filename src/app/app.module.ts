@@ -27,6 +27,7 @@ import { ContactComponent } from './components/contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     ReactiveFormsModule
   ],
   providers: [],

@@ -1,6 +1,4 @@
 .contact-container {
-    /* margin-top: 10px;  */
-    /* padding: 87px; */
     padding: 70px;
 }
 
@@ -13,8 +11,7 @@
 
 .contact-container p {
     margin-top: 0;
-    margin-bottom: 2rem; 
-
+    margin-bottom: 2rem;
 }
 
 .contact-box h3 {
@@ -42,5 +39,70 @@
 }
 
 .send-btn:hover {
-    background: #6a0dad;
+    background: #540a92;
+}
+
+
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 50px;
+    }
+
+    .contact-box {
+        text-align: center;
+    }
+
+    .contact-box p {
+        font-size: 14px;
+    }
+
+    .send-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-container {
+        padding: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-5,
+    .col-md-7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-box {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .send-btn {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.send-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
 }
