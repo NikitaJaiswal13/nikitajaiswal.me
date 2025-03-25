@@ -18,11 +18,12 @@
 
         <!-- Right Side: Contact Form -->
         <div class="col-md-7">
-            <form [formGroup] = "contactForm" (ngSubmit) ="onSubmit()">
+            <form [formGroup] = "contactForm" (ngSubmit) ="onSubmit()" >
+
                 <input type="text" class="form-control" placeholder="Type your name" required formControlName="name">
                 <div *ngIf="contactForm.controls['name'].invalid && contactForm.controls['name'].touched"
                 class = "error">
-                    Name is required (Min : 3 Character)
+                    Name is required
                 </div>
 
                 <input type="email" class="form-control" placeholder="Type your email" required formControlName = "email">
@@ -30,13 +31,32 @@
                     Enter a valid email address
                 </div>
                 
-                <textarea class="form-control" placeholder="Message box" required formControlName = "message"></textarea>
-                <div *ngIf="contactForm.controls['message'].invalid && contactForm.controls['message'].touched" class="error">
-                    Message should be of atleast 5 character 
-                </div>
+                <textarea class="form-control" placeholder="Message box" required formControlName = "message" rows="5"></textarea>
+
 
                 <button type="submit" class="btn send-btn" [disabled] = "contactForm.invalid">Send Message →</button>
-            </form>
+            </form>  
+<!-- 
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                <input type="text" class="form-control" placeholder="Type your name" formControlName="name">
+                <div *ngIf="contactForm.controls['name'].invalid && contactForm.controls['name'].touched" class="error">
+                    Name is required (Min: 3 characters).
+                </div>
+            
+                <input type="email" class="form-control" placeholder="Type your email" formControlName="email">
+                <div *ngIf="contactForm.controls['email'].invalid && contactForm.controls['email'].touched" class="error">
+                    Enter a valid email address.
+                </div>
+            
+                <textarea class="form-control" placeholder="Message box" formControlName="message" rows="5"></textarea>
+                <div *ngIf="contactForm.controls['message'].invalid && contactForm.controls['message'].touched" class="error">
+                    Message should be at least 10 characters.
+                </div>
+            
+                <button type="submit" class="btn send-btn" [disabled]="contactForm.invalid">Send Message →</button>
+            </form> -->
+            
+            
         </div>
     </div>
 </div>
