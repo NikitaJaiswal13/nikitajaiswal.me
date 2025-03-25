@@ -4,7 +4,6 @@
     left: 0;
     width: 100%;
     z-index: 1050;
-    /* background-color: #0f172a !important; */
 }
 
 .hero-section .btn {
@@ -15,14 +14,12 @@
 .navbar-brand{
     font-size: 1rem;
     color: #5f5e5e;
-    /* color: #93979f; */
 }
 
 .navbar-nav .nav-link{
     font-size: 0.8rem;
     margin-left: 55px;
     color: #5f5e5e;
-    /* color: #93979f; */
     transition: 0.3s;
     position: relative;
 }
@@ -69,7 +66,7 @@
 }
 
 .custom-toggler {
-    margin-right: 15px; /* Adjust as needed */
+    margin-right: 15px; 
     padding: 5px;
 }
 

@@ -1,80 +1,78 @@
-/* Skills Section Styling */
 #skills {
-    padding: 60px 0;
-    background-color: #f8f9fa;
-  }
-  
-  #skills h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  #skills p {
-    font-size: 1rem;
-    color: #6c757d;
-  }
-  
-  #skills .row {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  /* Skills Column Styling */
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#skills p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+#skills .row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Skills Column Styling */
+#skills .col-md-3 {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#skills .col-md-3:hover {
+  transform: translateY(-5px);
+}
+
+#skills h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #343a40;
+}
+
+#skills ul {
+  padding: 0;
+}
+
+#skills ul li {
+  list-style: none;
+  font-size: 1rem;
+  padding: 5px 0;
+  color: #495057;
+}
+
+/* Responsiveness */
+@media (max-width: 991px) {
   #skills .col-md-3 {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    width: 48%;
   }
-  
-  #skills .col-md-3:hover {
-    transform: translateY(-5px);
-  }
-  
-  #skills h4 {
-    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  #skills .col-md-3 {
+    width: 100%;
     margin-bottom: 15px;
-    color: #343a40;
   }
-  
-  #skills ul {
-    padding: 0;
+}
+
+@media (max-width: 480px) {
+  #skills h2 {
+    font-size: 1.8rem;
   }
-  
+
+  #skills h4 {
+    font-size: 1.3rem;
+  }
+
   #skills ul li {
-    list-style: none;
-    font-size: 1rem;
-    padding: 5px 0;
-    color: #495057;
+    font-size: 0.9rem;
   }
-  
-  /* Responsive Design */
-  @media (max-width: 991px) {
-    #skills .col-md-3 {
-      width: 48%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #skills .col-md-3 {
-      width: 100%;
-      margin-bottom: 15px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    #skills h2 {
-      font-size: 1.8rem;
-    }
-  
-    #skills h4 {
-      font-size: 1.3rem;
-    }
-  
-    #skills ul li {
-      font-size: 0.9rem;
-    }
-  }
-  
+}
