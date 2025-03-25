@@ -77,7 +77,7 @@
 
 
 
-/* Mobile */
+/* responsiveness */
 @media (max-width: 767px) {
     .navbar {
         padding: 5px;
