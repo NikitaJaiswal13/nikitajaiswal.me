@@ -88,3 +88,11 @@
         margin-left: 15px; 
     }
 }
+
+
+/* Disable */
+.disabled-link {
+    pointer-events: none; 
+    color: gray; 
+    cursor: not-allowed; 
+}
