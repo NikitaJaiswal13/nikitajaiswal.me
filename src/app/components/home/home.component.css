@@ -77,30 +77,33 @@ h1 {
 @media (max-width: 767px) {
     .hero-section {
         min-height: auto; 
-        padding: 0px 10px; /* Reduce padding */
+        padding: 0px 10px; 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: -30px; /* Move content slightly upwards */
+        margin-top: -50px; 
     }
 
     .profile-img img {
-        max-width: 70%; 
+        max-width: 60%; 
         height: auto;
-        margin-top: 0; /* Remove extra margin */
+        margin-bottom: 15px;
     }
 
     h1 {
         font-size: 2.5rem;
-        margin-top: -20px; /* Move heading up */
+        margin-top: 20px;
     }
 
     .hero-content {
-        padding: 5px; /* Reduce padding */
+        padding: 10px; 
     }
 }
+
+
+
 
 
 
