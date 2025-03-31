@@ -1,6 +1,6 @@
 .about-page {
-    background: url('/assets/BG/about_bg.avif') no-repeat center center ;
-    background-size: cover;
+    /* background: url('/assets/BG/about_bg.avif') no-repeat center center ; */
+    /* background-size: cover; */
     width: 100%;
     min-height: 100vh;
     padding: 10px 20px;
