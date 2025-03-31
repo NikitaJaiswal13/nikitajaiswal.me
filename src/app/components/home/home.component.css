@@ -53,27 +53,6 @@ h1 {
 }
 
 /* Responsiveness */
-/* @media (max-width: 767px) {
-    .hero-section {
-        min-height: auto;
-        padding: 20px 10px; 
-    }
-
-    .profile-img img {
-        max-width: 50%; 
-        height: auto;
-        margin-top: 10px; 
-    }
-
-    h1 {
-        font-size: 2rem; 
-    }
-
-    .hero-content {
-        padding: 10px; 
-    }
-} */
-
 @media (max-width: 767px) {
     .hero-section {
         min-height: auto; 
@@ -99,6 +78,9 @@ h1 {
 
     .hero-content {
         padding: 10px; 
+    }
+    a{
+        margin-bottom: 3px;
     }
 }
 
